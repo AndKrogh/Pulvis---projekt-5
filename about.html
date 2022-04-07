@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
-    
+
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="">
@@ -11,24 +11,77 @@
         <link rel="icon" href="images/">
         <!-- CSS -->
         <link rel="stylesheet" href="styles/main.css">
-        
+
         <!-- Icon fonts link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Javascript -->
         <script src="script/script.js" defer></script>
- 
-        <title>Pulvis - Om os</title>
+        <title>Pulvis - Forside</title>
     </head>
 
     <body>
         <!-- Header -->
         <header>
-
+          <nav class="navbar">
+            <div class="content">
+            <a class="logo"><img src="img/logo.png" alt=""></a>
+            <ul class="menu-list">
+              <a class="icon cancel-btn">
+                <i class="fa fa-times"></i>
+              </a>
+              <li><a href="#hjem">Hjem</a></li>
+              <li><a href="#om-mig">Om Mig</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li>
+                <label for="btn-2" class="show"></label>
+                <a href="#kompetencer">Kompetencer</a>
+                <input type="checkbox" id="btn-2">
+                <ul>
+                  <li> <a href="illustrator-kom.html">Illustrator</a></li>
+                  <li> <a href="#">Photoshop</a></li>
+                  </li>
+                </ul>
+              <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <div class="icon menu-btn">
+              <i class="fa fa-bars"></i>
+            </div>
+          </div>
+          </nav>
         </header>
 
+        <div class="body"></div>
+
         <footer>
-            
+            <br>
+            <div id="kontakt" class="contact-section">
+            <div class="columns">
+              <div class="column">
+                <br><br>
+                <img class="contact-logo" src="img/bookflip.png" alt="logo"> <br>
+              </div>
+              <div class="column">
+                <br>
+                <p> <span class="p1">Lær os at kende</span> </p>
+                <p class="p2"> Om BookFlip <br> Kontakt BookFlip <br> Presse </p> <br>
+              </div>
+                <div class="column">
+                 <br>
+                  <p><span class="p1">Sikkerhed og vilkår</span> </p>
+                  <p class="p2">Sikker handel på BookFlip <br> Brugervilkår <br> Persondatapolitik <br> Cookieindstillinger<br></p>
+                </div>
+                <div class="column">
+                  <br>
+                  <p><span class="p1">Følg os</span> <div class="media-pic">
+                    <a href="#"><img src="img/facebook1.png" alt="Facebook logo"></a>
+                  </div> <br>
+                </div>
+              </div>
+              </div>
+              <div class="copyright">
+                <p>&copy; 2022 BookFlip (CVR: 29197849)</p>
+              </div>
         </footer>
 
     </body>
