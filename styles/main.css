@@ -6,6 +6,9 @@
     text-decoration: none;
 }
 
+.body {
+  height: 100vh;
+}
 .content {
   max-width: 1250px;
   margin: auto;
