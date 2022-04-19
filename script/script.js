@@ -31,6 +31,7 @@ if(galleryImg) {
             let getImgUrlPos = getFullImgUrl.split("/images/billeder-til-js-galleri/thums/");
             let setNewImgUrl = getImgUrlPos[1].replace('")', '');
 
+
             getLatestOpenedeImg = index + 1;
 
             let container = document.body;
@@ -102,4 +103,17 @@ function changeImg(changeDir) {
     newImg.setAttribute("id", "current-img");
 
     getLatestOpenedeImg = calcNewImg;
+
+    newImg.onload = function () {
+        let imgWidth = this.Width;
+        let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
+
+        let nextBtn = document.querySelector(".img-btn-next");
+        nextBtn.style.cssText = "right: " + calcImgToEdge + "px;";
+
+        let prevBtn = document.querySelector(".img-btn-prev");
+        prevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
+
+    }
+
 }
