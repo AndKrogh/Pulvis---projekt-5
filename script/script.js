@@ -30,6 +30,7 @@ if(galleryImg) {
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
             let getImgUrlPos = getFullImgUrl.split("/images/billeder-til-js-galleri/thums/");
             let setNewImgUrl = getImgUrlPos[1].replace('")', '');
+            alert(getImgUrlPos);
 
             getLatestOpenedeImg = index + 1;
 

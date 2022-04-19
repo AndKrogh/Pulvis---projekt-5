@@ -41,12 +41,12 @@ margin-top: 0px;
 
 #indeks-galleri .img1{
    grid-area: img1;
-   background-image: url(../images/billeder-til-js-galleri/img1.jpg);
+   background-image: url(../images/billeder-til-js-galleri/thums/img1.jpg);
 }
 
 #indeks-galleri .img2{
    grid-area: img2;
-   background-image: url(../images/billeder-til-js-galleri/img2.jpg);
+   background-image: url(../images/billeder-til-js-galleri/thums/img2.jpg);
    height: 610px;
 }
 
