@@ -3,7 +3,7 @@
 }
 /* galleri kontainer */
 #indeks-galleri {
-    padding: 140px 30px;
+    padding: 150px 150px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
