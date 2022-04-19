@@ -98,7 +98,7 @@ function changeImg(changeDir) {
         }
     }
 
-    newImg.setAttribute("src", "billeder-til-js-galleri/img" + calcNewImg + ".jpg");
+    newImg.setAttribute("src", "images/billeder-til-js-galleri/img" + calcNewImg + ".jpg");
     newImg.setAttribute("id", "current-img");
 
     getLatestOpenedeImg = calcNewImg;
