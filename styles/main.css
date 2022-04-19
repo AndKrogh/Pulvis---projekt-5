@@ -64,7 +64,7 @@
   top: 20px;
 }
 .show, input {
-  display: none;
+  display: ;
 }
 
 @media (max-width: 868px) {
