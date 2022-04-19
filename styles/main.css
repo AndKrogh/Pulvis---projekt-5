@@ -245,30 +245,30 @@ footer {
 
 #indeks-galleri .img1{
    grid-area: img1;
-   background-image: url(./billeder-til-js-galleri/thums/img1.jpg);
+   background-image: url(../images/billeder-til-js-galleri/img1.jpg);
 }
 
 #indeks-galleri .img2{
    grid-area: img2;
-   background-image: url(./billeder-til-js-galleri/thums/img2.jpg);
+   background-image: url(../image/billeder-til-js-galleri/thums/img2.jpg);
    height: 610px;
 }
 
 #indeks-galleri .img3{
    grid-area: img3;
-   background-image: url(./billeder-til-js-galleri/thums/img3.jpg);
+   background-image: url(../images/billeder-til-js-galleri/thums/img3.jpg);
    height: 610px;
 }
 
 #indeks-galleri .img4{
    grid-area: img4;
-   background-image: url(./billeder-til-js-galleri/thums/img4.jpg);
+   background-image: url(../images/billeder-til-js-galleri/thums/img4.jpg);
    height: 610px;
 }
 
 #indeks-galleri .img5{
    grid-area: img5;
-   background-image: url(./billeder-til-js-galleri/thums/img5.jpg);
+   background-image: url(../images/billeder-til-js-galleri/thums/img5.jpg);
 }
 
 /* galleri billede titler */
