@@ -49,6 +49,11 @@
   color: #e6e6e6;
 }
 
+.highlight {
+  color: #FFF !important;
+  cursor: default;
+}
+
 .logo img {
   width: 80px;
 }
