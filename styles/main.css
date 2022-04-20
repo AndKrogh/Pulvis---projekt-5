@@ -683,19 +683,26 @@ p{
 }
 
 .right-arrow {
-  background: url(images/boeger-img/next.png) no-repeat;
-  background-position: 50% 50%;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-size: 40%;
+}
+.right-arrow i {
+  font-size: 3rem;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.left-arrow {
   display: inline-block;
   width: 100%;
   height: 100%;
   background-size: 40%;
 }
 
-.left-arrow {
-  background: url(images/boeger-img/prev.png) no-repeat;
-  background-position: 50% 50%;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  background-size: 40%;
+.left-arrow i{
+  font-size: 3rem;
+  margin-top: 15px;
+  margin-right: 5px;
 }
