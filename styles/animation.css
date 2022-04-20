@@ -66,12 +66,12 @@ height: 100vh;
 
 .bottomright img {
   width: 500px;
-  height: 500px;
+  height: auto;
 }
 
 .bottomleft img {
   width: 500px;
-  height: 500px;
+  height: 437px;
 }
 
 .textboxabout {
