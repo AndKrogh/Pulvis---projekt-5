@@ -320,24 +320,24 @@ h2 {
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 75px;
+  margin-left: 460px;
   padding: 32px;
 }
 
 .select-box {
   display: flex;
-  width: 400px;
+  width: 375px;
   flex-direction: column;
 }
 
 .select-box .options-container {
   background: #ffffff;
-  color: #000000;
+  color: #808080;
   max-height: 0;
   width: 100%;
   opacity: 0;
   transition: all 0.4s;
-  border-radius: 8px;
   overflow: hidden;
 
   order: 1;
@@ -345,9 +345,9 @@ h2 {
 
 .selected {
   background: #ffffff;
-  border-radius: 8px;
+
   margin-bottom: 8px;
-  color: #000000;
+  color: #808080;
   position: relative;
 
   order: 0;
@@ -355,7 +355,7 @@ h2 {
 
 .selected::after {
   content: "";
-  background: url("img/arrow-down.svg");
+  background: url("images/arrow-down.svg");
   background-size: contain;
   background-repeat: no-repeat;
 
@@ -382,12 +382,12 @@ h2 {
 .select-box .options-container::-webkit-scrollbar {
   width: 8px;
   background: #0d141f;
-  border-radius: 0 8px 8px 0;
+
 }
 
 .select-box .options-container::-webkit-scrollbar-thumb {
   background: #525861;
-  border-radius: 0 8px 8px 0;
+
 }
 
 .select-box .option,

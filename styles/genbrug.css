@@ -160,7 +160,19 @@ h2{
    border-radius: 1em;
    width: 60%;
    height: 500px;
-   background-color: #135975;
+   background-color: #1359751e;
    margin-bottom: 100px;
 
+}
+
+.indretning1 {
+   padding-top: 10px;
+   height: 400px;
+   width: 300px;
+}
+
+.indretning2 {
+   padding-top: 10px;
+   height: 300px;
+   width: 180px;
 }
