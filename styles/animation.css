@@ -9,6 +9,7 @@ height: 100vh;
 }
 
 .grid-container {
+  padding-top: 150px;
   display: grid;
   grid-template-areas:
     "left right"
