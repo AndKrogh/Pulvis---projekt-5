@@ -148,3 +148,7 @@ margin-top: 0px;
 .img-btn-prev:hover {
    opacity: 0.8;
 }
+
+h2{
+   margin: 0;
+}
