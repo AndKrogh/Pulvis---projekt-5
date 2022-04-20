@@ -148,3 +148,18 @@ margin-top: 0px;
 .img-btn-prev:hover {
    opacity: 0.8;
 }
+
+h2{
+   margin: 0;
+}
+
+.boksUnderGalleri {
+   margin: auto;
+   text-align: center;
+   border-radius: 1em;
+   width: 50%;
+   height: 500px;
+   background-color: red;
+   margin-bottom: 150px;
+
+}
