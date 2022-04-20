@@ -160,7 +160,7 @@ h2{
    border-radius: 1em;
    width: 60%;
    height: 500px;
-   background-color: #1359751e;
+   background-color: #13597515;
    margin-bottom: 100px;
 
 }
@@ -173,6 +173,21 @@ h2{
 
 .indretning2 {
    padding-top: 10px;
-   height: 300px;
-   width: 180px;
+   height: 400px;
+   width: 240px;
+}
+
+@media (max-width: 887px) {
+   .indretning1 {
+      padding-top: 10px;
+      height: 300px;
+      width: 200px;
+   }
+
+   .indretning2 {
+      padding-top: 10px;
+      height: 300px;
+      width: 180px;
+   }
+  }
 }
