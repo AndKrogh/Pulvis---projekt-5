@@ -38,6 +38,7 @@ height: 100vh;
 .bottomleft {
   grid-column: 1/3;
   grid-row: 2/3;
+  justify-content: center;
 
 }
 
