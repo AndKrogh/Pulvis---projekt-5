@@ -582,3 +582,120 @@ p{
 
 
 /*------ about me ------*/
+
+
+
+
+
+/*------ boeger-slider ------*/
+.filler {
+  height: 25vh;
+}
+.title {
+  text-align: center;
+}
+.container {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  position: relative;
+}
+
+.list {
+  display: inline-block;
+  /* padding: 10px; */
+}
+
+.product-container {
+  text-align: center;
+  padding: 15px;
+  background:rgba(187, 179, 179, 0.2);
+  width: 400px;
+  height: 435px;
+}
+
+.book-p {
+  width: 300px;
+  height: 350px;
+}
+
+.b-title {
+  color: #0066c0;
+
+  font-size: 15px;
+}
+
+
+.wrapper::-webkit-scrollbar {
+  height: 7px;
+}
+
+.wrapper::-webkit-scrollbar-track {
+  background: #eeeeee;
+  border: 4px solid transparent;
+  background-clip: content-box;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+#click2 {
+  position: absolute;
+  top: 35%;
+  left: 0%;
+  width: 35px;
+  height: 80px;
+  background: white;
+  border: 1px solid #888;
+  border-left: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#click {
+  position: absolute;
+  top: 35%;
+  right: 0%;
+  width: 35px;
+  height: 80px;
+  background: white;
+  border: 1px solid #888;
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#click:hover, #click2:hover {
+  opacity: 1;
+}
+
+.right-arrow {
+  background: url(images/boeger-img/next.png) no-repeat;
+  background-position: 50% 50%;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-size: 40%;
+}
+
+.left-arrow {
+  background: url(images/boeger-img/prev.png) no-repeat;
+  background-position: 50% 50%;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-size: 40%;
+}
