@@ -310,7 +310,6 @@ footer {
 
 
 
-
 body {
   font-family: "Roboto", sans-serif;
   background: #f7f6ff;
@@ -323,10 +322,6 @@ h2 {
 .container {
   margin-top: 100px;
   padding: 32px;
-  display: flex;
-  align-items:baseline ;
-  justify-content: right;
-
 }
 
 .select-box {
@@ -336,20 +331,20 @@ h2 {
 }
 
 .select-box .options-container {
-  background: #FFFFFF;
+  background: #ffffff;
   color: #000000;
   max-height: 0;
   width: 100%;
   opacity: 0;
   transition: all 0.4s;
-
+  border-radius: 8px;
   overflow: hidden;
 
   order: 1;
 }
 
 .selected {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
   margin-bottom: 8px;
   color: #000000;
@@ -386,12 +381,13 @@ h2 {
 
 .select-box .options-container::-webkit-scrollbar {
   width: 8px;
-  background: #FFFFFF;
+  background: #0d141f;
   border-radius: 0 8px 8px 0;
 }
 
 .select-box .options-container::-webkit-scrollbar-thumb {
   background: #525861;
+  border-radius: 0 8px 8px 0;
 }
 
 .select-box .option,
@@ -408,7 +404,7 @@ h2 {
   cursor: pointer;
 }
 
-.select-box .option .kategori {
+.select-box .option .auto1 {
   display: none;
 }
 
