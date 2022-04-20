@@ -63,7 +63,12 @@ height: 100vh;
   text-decoration: none;
 }
 
-.bottomright bottomleft img {
+.bottomright img {
+  width: 500px;
+  height: auto;
+}
+
+.bottomleft img {
   width: 500px;
   height: auto;
 }
