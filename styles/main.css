@@ -411,3 +411,174 @@ h2 {
 .select-box .option .kategori {
   display: none;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,39,0.7),rgba(4,9,39,0.7)),url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+
+}
+
+nav .fas{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+       font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fas{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+
+
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between
+
+
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+/*----- aboutme -----*/
+.aboutme{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.aboutme-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.aboutme-col img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: #135975;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+/*------ about me ------*/
