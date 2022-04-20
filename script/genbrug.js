@@ -25,7 +25,6 @@ if(galleryImg) {
             newImgWindow.appendChild(newImg);
             newImg.setAttribute("src", "/images/billeder-til-js-galleri/" + setNewImgUrl);
             newImg.setAttribute("id", "current-img");
-            alert(setNewImgUrl);
 
             newImg.onload = function () {
                 let imgWidth = this.width;
