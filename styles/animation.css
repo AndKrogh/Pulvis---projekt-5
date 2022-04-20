@@ -45,6 +45,11 @@ height: 100vh;
   justify-content: center;
 }
 
+.bottomleft {
+  grid-column: 1/3
+  justify-content: center;
+}
+
 .kontaktosknap {
   display: grid;
   text-align: center;
