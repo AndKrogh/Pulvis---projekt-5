@@ -148,3 +148,21 @@ margin-top: 0px;
 .img-btn-prev:hover {
    opacity: 0.8;
 }
+
+h2{
+   margin: 0;
+}
+
+
+
+
+.tekstbox {
+   margin: auto;
+   text-align: center;
+   border-radius: 1em;
+   width: 60%;
+   height: 500px;
+   background-color: #135975;
+   margin-bottom: 100px;
+
+}
