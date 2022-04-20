@@ -166,6 +166,13 @@ h2{
 }
 
 .indretning1 {
+   padding-top: 10px;
    height: 400px;
    width: 300px;
+}
+
+.indretning2 {
+   padding-top: 10px;
+   height: 300px;
+   width: 180px;
 }
