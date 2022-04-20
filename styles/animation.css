@@ -63,7 +63,7 @@ height: 100vh;
   text-decoration: none;
 }
 
-.bottomright img {
+.bottomright bottomleft img {
   width: 500px;
   height: auto;
 }
