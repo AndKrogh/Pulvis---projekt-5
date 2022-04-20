@@ -1,0 +1,130 @@
+html,
+body{
+height: 100vh;
+}
+
+* {
+  font-family: Tahoma;
+  padding: 0%;
+  margin: 0%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "left right"
+    "bottomleft bottomright";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.left {
+  display: grid;
+  grid-column: 1/2;
+  margin: 4em;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.right {
+  display: grid;
+  grid-column: 2/3;
+  margin: 4em;
+  align-content: center;
+  justify-content: center;
+}
+
+.bottomleft {
+  grid-column: 1/2;
+
+}
+
+.bottomright {
+  display: grid;
+  grid-column: 2/3;
+  justify-content: center;
+}
+
+.kontaktosknap {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  background-color: orange;
+  margin: auto;
+  margin-top: 50px;
+  padding: 12px;
+  width: 150px;
+  border-radius: 2vh;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bottomright img {
+  width: 500px;
+  height: auto;
+}
+
+.textboxabout {
+  padding: 40px;
+  height: auto;
+  width: auto;
+  line-height: 4vh;
+  text-align: left;
+  color: white;
+  border-radius: 3vh;
+  background-color: #135975;
+}
+
+.hvemerviboks {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 30px;
+
+}
+
+.overskriften1 h1{
+  color: #135975;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.aligner {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  color: #135975;
+}
+
+.center div{
+  display: inline-block;
+}
+
+.content {
+  height: 60px;
+  width: 250px;
+  overflow: hidden;
+  position: relative;
+  top: 18px;
+  color: #135975;
+  text-align: left;
+  font-weight: 200;
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.list ul li {
+  font-size: 2em;
+  padding: 0.4em 0em;
+}
+
+.list {
+  transition: transform 0.9s ease;
+}
