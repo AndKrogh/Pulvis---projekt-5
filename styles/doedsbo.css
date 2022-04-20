@@ -69,9 +69,18 @@
     line-height: 25px;
 }
 
-.inner_box2 > iframe {
+.inner_box2 > button {
+    padding: 5px 10px;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.inner_box2 > video {
+    border: 1px solid gray;
+    border-radius: 5px;
     width: 100%;
-    margin-top: 15px;
 }
 
 /* Mobile Responsive */
@@ -93,7 +102,4 @@
         margin-bottom: 20px;
     }
 
-    .inner_box2 > iframe {
-        width: 100%;
-    }
 }
