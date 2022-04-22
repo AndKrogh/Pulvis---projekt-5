@@ -1,0 +1,33 @@
+const selected = document.querySelector(".selected");
+const optionsContainer = document.querySelector(".options-container");
+
+const optionsList = document.querySelectorAll(".option");
+
+selected.addEventListener("click", () => {
+  optionsContainer.classList.toggle("active");
+});
+
+optionsList.forEach(o => {
+  o.addEventListener("click", () => {
+    selected.innerHTML = o.querySelector("label").innerHTML;
+    optionsContainer.classList.remove("active");
+  });
+});
+
+
+
+const selectedd = document.querySelector(".selectedd");
+const optionsContainerr = document.querySelector(".options-containerr");
+
+const optionsListt = document.querySelectorAll(".option");
+
+selectedd.addEventListener("click", () => {
+  optionsContainerr.classList.toggle("active");
+});
+
+optionsList.forEach(o => {
+  o.addEventListener("click", () => {
+    selectedd.innerHTML = o.querySelector("label").innerHTML;
+    optionsContainerr.classList.remove("active");
+  });
+});

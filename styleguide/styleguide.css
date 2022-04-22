@@ -1,0 +1,220 @@
+body{
+  margin-left: 5rem;
+  background-color: grey;
+}
+
+
+.circle2{
+  background-color: #E0BE36;
+  width:70px;
+  height:70px;
+  border-radius: 70%;
+}
+.circle{
+    background-color: #f7f6ff;
+    width:70px;
+    height:70px;
+    border-radius: 70%;
+
+}
+.circle3{
+    background-color: #135975;
+    width:70px;
+    height:70px;
+    border-radius: 70%;
+}
+.circle4{
+    background-color: #000000;
+    width:70px;
+    height:70px;
+    border-radius: 70%;
+}
+
+
+h2 {
+font-family: Arial;
+display: flex;
+}
+h3{
+  font-family: 'Poppins' 'sans-serif';
+  display: flex;
+  font-size: 62px;
+}
+h4{
+  font-family: 'Roboto' 'sans-serif';
+  display: flex;
+}
+h5{
+  font-family: Helvetica;
+  display: flex;
+
+  font-size: 10px;
+
+  font-weight: bold;
+
+}
+h6{
+  font-family: Helvetica;
+  display: flex;
+
+  font-size: 17px;
+
+  font-weight: bold;
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #000000;
+    background: #E0BE36;
+    transition: 1s;
+
+}
+
+.red-btn{
+    border: 1px solid #000000;
+    background: transparent;
+    color: #000000;
+}
+
+.red-btn:hover{
+    color: #fff;
+
+}
+.icon{
+  color: #353854;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.icon.cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+.logo img {
+  width: 80px;
+}
+.contact_box {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.contact_box > a {
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    background-color: #E0BE36;
+    border: 1px solid gray;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.contact_box > a:hover {
+    background-color: #FFF;
+}
+.contact-col div .fa{
+    font-size: 28px;
+    color: #135975;
+    margin: 10px;
+    margin-right: 30px;
+}
+.container {
+}
+
+.select-box {
+  display: flex;
+  width: 375px;
+  flex-direction: column;
+}
+
+.select-box .options-container {
+  background: #ffffff;
+  color: #808080;
+  max-height: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.4s;
+  overflow: hidden;
+
+  order: 1;
+}
+
+.selected {
+  background: #ffffff;
+
+  margin-bottom: 8px;
+  color: #808080;
+  position: relative;
+  order: 0;
+}
+
+.selected::after {
+  content: "";
+  background: url("images/arrow-down.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  height: 100%;
+  width: 32px;
+  right: 10px;
+  top: 5px;
+
+  transition: all 0.4s;
+}
+
+.select-box .options-container.active {
+  max-height: 240px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.select-box .options-container.active + .selected::after {
+  transform: rotateX(180deg);
+  top: -6px;
+}
+
+.select-box .options-container::-webkit-scrollbar {
+  width: 8px;
+  background: #0d141f;
+
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb {
+  background: #525861;
+
+}
+
+.select-box .option,
+.selected {
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.select-box .option:hover {
+  background: #414b57;
+}
+
+.select-box label {
+  cursor: pointer;
+}
+
+.select-box .option .auto1 {
+  display: none;
+}
+.column .fa {
+  font-size: 30px;
+  margin-right: 10px;
+  color: white;
+  margin-top: 10px;
+}
