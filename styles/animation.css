@@ -62,6 +62,12 @@ height: 100vh;
   border-radius: 2vh;
   font-weight: bold;
   text-decoration: none;
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+
+.kontaktosknap:hover {
+  background-color: #FFF;
 }
 
 .bottomright img {
@@ -83,6 +89,10 @@ height: 100vh;
   color: white;
   border-radius: 3vh;
   background-color: #135975;
+}
+
+.about_text {
+  color: #FFF;
 }
 
 .hvemerviboks {
