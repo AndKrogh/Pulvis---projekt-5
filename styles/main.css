@@ -73,7 +73,7 @@
 @media (max-width: 868px) {
   .icon {
     display: block;
-    color: #000;
+    color: #fff;
   }
   .icon.hide {
     display: none;
@@ -97,7 +97,7 @@
     margin-top: 45px;
   }
   .navbar .menu-list li a {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 
@@ -118,8 +118,9 @@ footer {
 }
 
 .contact-logo {
-  height: 80px;
-  margin-top: 30px;
+  height: 150px;
+  margin-top: 40px;
+  margin-left: 50px;
 }
 
 
@@ -157,6 +158,10 @@ footer {
   color: #fff;
 }
 
+.column p {
+  line-height: 1;
+}
+
 .column .fa {
   font-size: 30px;
   margin-right: 10px;
@@ -166,19 +171,19 @@ footer {
 
 .vertical {
   border-left: 2px solid white;
-  height: 125px;
+  height: 200px;
   position:absolute;
   left: 26%;
   }
 .vertical2 {
   border-left: 2px solid white;
-  height: 125px;
+  height: 200px;
   position:absolute;
   left: 50%;
   }
 .vertical3 {
   border-left: 2px solid white;
-  height: 125px;
+  height: 200px;
   position:absolute;
   left: 74%;
 }
@@ -196,6 +201,14 @@ footer {
   }
 }
 
+@media screen and (max-width: 1175px) {
+  .contact-logo {
+  height: 100px;
+  margin-top: 40px;
+  margin-left: 10px;
+  }
+}
+
 @media screen and (max-width: 887px) {
   .vertical{
     display: none;
@@ -206,7 +219,16 @@ footer {
   .vertical3 {
     display: none;
   }
+  .contact-logo {
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 10px;
+  }
 }
+
+
+
+
 .mid {
   padding-top: 150px;
   padding-left: 150px;
@@ -470,9 +492,7 @@ h2 {
 
 }
 
-nav .fas{
-    display: none;
-}
+
 
 @media(max-width: 700px){
     .text-box h1{
@@ -586,7 +606,6 @@ p{
 }
 
 
-/*------ about me ------*/
 
 
 
@@ -594,10 +613,17 @@ p{
 
 /*------ boeger-slider ------*/
 .filler {
-  height: 25vh;
+  height: 20vh;
 }
 .title {
   text-align: center;
+  padding-bottom: 20px;
+}
+.container1 {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 45px;
 }
 
 .wrapper {
@@ -611,10 +637,10 @@ p{
 
 .list {
   display: inline-block;
-  /* padding: 10px; */
+  padding: 10px;
 }
 
-.product- {
+.product-container {
   text-align: center;
   padding: 15px;
   background:rgba(187, 179, 179, 0.2);
@@ -629,7 +655,6 @@ p{
 
 .b-title {
   color: #0066c0;
-
   font-size: 15px;
 }
 
@@ -682,27 +707,12 @@ p{
   opacity: 1;
 }
 
-.right-arrow {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  background-size: 40%;
-}
 .right-arrow i {
   font-size: 3rem;
-  margin-top: 15px;
   margin-left: 5px;
-}
-
-.left-arrow {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  background-size: 40%;
 }
 
 .left-arrow i{
   font-size: 3rem;
-  margin-top: 15px;
   margin-right: 5px;
 }

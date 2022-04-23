@@ -1,3 +1,5 @@
+// ----------ANNE-SOFIE-------------- //
+
 const wrapper = document.getElementsByClassName('wrapper');
 const button = document.getElementById('click');
 const button2 = document.getElementById('click2');
@@ -16,8 +18,6 @@ function clicked () {
     left: scroll,
     behavior: 'smooth'
   });
-  scroll = wrapper[0].scrollLeft + 50;
-  console.log(wrapper[0].scrollLeft);
 }
 
 function clicked2 () {
