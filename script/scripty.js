@@ -1,7 +1,7 @@
-const selected = document.querySelector(".selected");
-const optionsContainer = document.querySelector(".options-container");
+let selected = document.querySelector(".selected");
+let optionsContainer = document.querySelector(".options-container");
 
-const optionsList = document.querySelectorAll(".option");
+let optionsList = document.querySelectorAll(".option");
 
 selected.addEventListener("click", () => {
   optionsContainer.classList.toggle("active");
