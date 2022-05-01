@@ -98,3 +98,8 @@ function changeImg(changeDir) {
     }
 
 }
+
+
+let cars = ["Saab", "Volvo", "BMW"];
+
+console.log(cars[2]);
